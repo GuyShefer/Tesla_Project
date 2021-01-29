@@ -7,7 +7,7 @@
 /* First Section */
 
 .first-section {
-    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop') no-repeat center center/cover;
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop') no-repeat center/cover;
     height: 100vh;
 }
 
@@ -76,6 +76,13 @@ a {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('fonts/Gotham-Medium.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
 #navbar ol li a {
     display: block;
     text-align: center;
@@ -113,12 +120,103 @@ a {
     font-size: 40px;
     line-height: 48px;
     color: #ffffff;
+    padding-top: 14px;
+    padding-bottom: 8px;
 }
  
+.hero-region-center-bottom {
+    min-width: 100%;
+    margin-top: 24.5%;
+}
 
+.hero-region-center-bottom .hero-callouts {
+    width: 640px;
+    height: 66px;
+    margin: 25px 354.5px;
+    text-align: center;
+}
 
+.callout {
+    width: 119.328px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
 
+.hero-callouts {
+    color: #fff;
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 
+.callout-title {
+    width: 119.328px;
+    height: 48px;
+    align-items: center;
+}
+
+.callout-title p {
+    padding-top: 10px;
+}
+
+.speedometer-digits {
+    width: 64.125px;
+    height: 36px;
+}
+
+#gotham-28 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#gotham-24 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.callout p {
+    width: 119.328px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.callout-divider-line {
+    border-left: 1px solid #fff;
+}
+
+.callout-line {
+    height: 66px;
+    float: left;
+    border-left: 1px solid #fff;
+}
+
+.callout-button {
+    float: right;
+    width: 155px;
+    margin-top: 15px;
+} 
+
+#btn-callout-order-now {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 14px;
+    width: 160px;
+    height: 40px;
+    white-space: nowrap;
+    border-radius: 20px;
+    /* border: 1px solid #171a20; */
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-callout-order-now:hover {
+    background: #fff;
+    color: #171a20;
+}
 
 
 
