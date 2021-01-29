@@ -16,6 +16,7 @@
 header {
     height: 52px;
     width: 1366px;
+    
 }
 
 /* Tesla Header Logo */
@@ -79,8 +80,15 @@ header {
 }
 
 @font-face {
+    font-family: 'Gotham Light';
+    src: url('fonts/Gotham-Light.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
     font-family: 'Gotham Book';
-    src: url('fonts/Gotham-Medium.otf');
+    src: url('fonts/Gotham\ Book.otf');
     font-style: normal;
     font-weight: 400;
 }
@@ -272,9 +280,14 @@ header {
     }
 
     .side-nav-container .side-nav-item a{
-        color: #fff;
+        /* color: #fff; */
+        color: transparent;
         text-decoration: none;
         font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .side-nav-container .side-nav-item a:hover{
+        color: #fff;
     }
 
 
@@ -282,4 +295,105 @@ header {
 
 .second-section {
     height: 100vh;
+    width: 100vw;
+}
+
+/* Left Side */
+.second-section .second-left {
+    background: #ffffff;
+    height: 100%;
+    min-width: 415px;
+    border-right: 0.3px solid red;
+    padding: 0 50px;
+    width: 415px;
+}
+
+.second-section .left-body {
+    height: 100%;
+}
+
+ .left-headers {
+    width: 351px;
+    height: 85px !important;
+    padding-top: 20px;
+    padding-bottom: 64px;
+}
+
+.left-headers header {
+    width: 351px;
+    height: 53px;
+    margin-top: 44px;
+}
+
+.left-headers .banner-header {
+    font-family: "Gotham Light", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    color: #171a20;
+    font-style: normal;
+}
+
+.left-headers .banner-subheader {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #171a20;
+}
+
+.left-body .left-section-body {
+    width: 315px;
+    height: 460px;
+    padding-top: 16px;
+    padding-bottom: 64px;
+    margin-top: 92px;
+}
+
+.left-body .left-section-body p {
+    font-family: "Gotham Book", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #393c41;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+}
+
+.left-section-body .bunner-buttons-footer {
+    width: 365px;
+    height: 56px;
+    margin-top: 16px;
+    border: 1px solid black;
+    position: absolute;
+    top: 1121px;
+}
+
+.bunner-buttons-footer .bannter-btn-learn-more img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.bunner-buttons-footer .bannter-btn-learn-more img:hover {
+    background: black;
+}
+
+.bunner-buttons-footer .bannter-btn-learn-more p {
+    margin-top: -32px;
+    margin-left: 55px;
+    font-family: "Gotham Book", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    color: #171a20;
+    
+}
+
+.bunner-buttons-footer .bannter-btn-learn-more a {
+    text-decoration: none;
 }
