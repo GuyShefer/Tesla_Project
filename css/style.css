@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Section */
+
+.first-section {
+    background: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Header */
+
+header {
+    height: 52px;
+    width: 1366px;
+}
+
+/* Tesla Header Logo */
+
+.menu-header-main-logo {
+    width: 100px;
+    height: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#tesla-logo {
+    width: 100px;
+    height: 52px;
+    display: inline-block;
+}
+
+.tesla-container {
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    block-size: 100%;
+}
+
+/* Header Nav Bar */
+
+#navbar ol {
+    float: right;
+    list-style:none;
+    height: 52px;
+    align-items: center;
+    display: flex;
+    width: 960px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 17px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('fonts/Gotham-Medium.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+#navbar ol li a {
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* second navbar */
+
+#navbar ul {
+    list-style:none;
+    float: right;
+    height: 52px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 1080px; 
+}
+
+.menu-btn {
+    margin-top: -10px;
+    width: 38px;
+}
+
+/* First Section Body */
+
+.first-section-title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.first-section-title h1 {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+}
+ 
+
+
+
+
+
+
+
+/* Second Section */
+
+.second-section {
+    height: 100vh;
+}
