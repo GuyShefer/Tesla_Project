@@ -127,6 +127,7 @@ a {
 .hero-region-center-bottom {
     min-width: 100%;
     margin-top: 24.5%;
+    margin-bottom: 36px;
 }
 
 .hero-region-center-bottom .hero-callouts {
@@ -218,6 +219,17 @@ a {
     color: #171a20;
 }
 
+.next-section-btn {
+    height: 45px;
+}
+
+.next-section-btn .arrow-btn {
+    background: transparent;
+    margin: 20px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    margin: 3.25px 664.5px;
+} 
 
 
 /* Second Section */
