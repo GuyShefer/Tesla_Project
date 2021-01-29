@@ -57,7 +57,7 @@ header {
 }
 
 
-a {
+.menu-header-nav-list a, .menu-header-second-nav-list a {
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
@@ -68,6 +68,8 @@ a {
     height: 17px;
     cursor: pointer;
 }
+
+
 
 @font-face {
     font-family: 'Gotham Medium';
@@ -230,6 +232,50 @@ a {
     filter: invert(100%);
     margin: 3.25px 664.5px;
 } 
+
+/* SIDENAV */
+
+    .first-section .side-nav-container {
+        width: 60px;
+        height: 252px;
+        font-size: 22px;
+        line-height: 23px;
+        margin-top: -500px;
+        position: absolute;
+        z-index: 5;
+        color: #fff;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+
+    .side-nav-container .side-nav-item {
+        position: relative;
+        margin-top: 5px;
+        cursor: pointer;
+        
+    }
+
+    .side-nav-container .side-nav-item .side-nav-tab {
+        margin-left: 13px;
+        display: inline;
+        border-left: 3px solid #fff;
+        width: 3px;
+    }
+
+    .side-nav-container .side-nav-item .side-nax-label {
+        margin-left: 10px;
+        width: 300px;
+        height: 23px;
+        width: 60px;
+        display: inline;
+        font-size: 10px;    
+    }
+
+    .side-nav-container .side-nav-item a{
+        color: #fff;
+        text-decoration: none;
+        font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
 
 
 /* Second Section */
