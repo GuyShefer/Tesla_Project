@@ -5,6 +5,17 @@
     font-family: "Gotham Book", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.first-section,
+.second-section,
+.third-section {
+    scroll-snap-align: center;
+}
+
 /* First Section */
 
 .first-section {
@@ -89,7 +100,7 @@ header {
 
 @font-face {
     font-family: 'Gotham Book';
-    src: url('fonts/Gotham\ Book.otf');
+    src: url('fonts/GothamBook.ttf');
     font-style: normal;
     font-weight: 400;
 }
@@ -243,7 +254,7 @@ header {
 
 /* SIDENAV */
 
-    .first-section .side-nav-container {
+    .first-section .side-nav-container, .third-section .side-nav-container {
         width: 60px;
         height: 252px;
         font-size: 22px;
@@ -254,6 +265,10 @@ header {
         color: #fff;
         font-weight: 400;
         white-space: nowrap;
+    }
+
+    .third-section .side-nav-container {
+        margin-top: -545px;
     }
 
     .second-section .side-nav-container {
@@ -281,7 +296,8 @@ header {
         width: 3px;
     }
 
-    .first-section .side-nav-container .side-nav-item .side-nav-first {
+    .first-section .side-nav-container .side-nav-item .side-nav-first ,
+    .third-section .side-nav-container .side-nav-item .side-nav-first {
         margin-left: 12px;
         border-left: 3px solid #fff;
         display: inline;
@@ -311,7 +327,8 @@ header {
         font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
-    .first-section .side-nav-container .side-nav-item a:hover{
+    .first-section .side-nav-container .side-nav-item a:hover,
+    .third-section .side-nav-container .side-nav-item a:hover {
         color: #fff;
     }
 
@@ -350,7 +367,7 @@ header {
     margin-top: 44px;
 }
 
-.left-headers .banner-header {
+.banner-header {
     font-family: "Gotham Light", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 500;
     font-size: 17px;
@@ -359,7 +376,7 @@ header {
     font-style: normal;
 }
 
-.left-headers .banner-subheader {
+.banner-subheader {
     font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 500;
     font-size: 28px;
@@ -515,6 +532,7 @@ header {
 
 
 /* Third Section */
+/* Banner Image */
 
 .third-section {
     height: 100vh;
@@ -607,8 +625,54 @@ header {
     float: left;
 }
 
+/* Section 3 - Banner Content  */
+.third-section .banner-content {
+    width:100%;
+    padding: 0 24px;
+    height: 250px;
+}
+
+.third-section .banner-content .tds-flex {
+    width: 975px;
+    height: 235px;
+    margin: 0 163px; 
+}
+
+.third-section .banner-content .tds-flex .tds-left {
+    width: 331px;
+    height: 123px;
+    padding: 48px 20px 64px 0;
+    float: left;
+}
+
+.third-section .banner-content .tds-flex .tds-right {
+    width: 624px;
+    height: 123px;
+    padding: 48px 0 64px 0;
+    float: right;
+}
+
+.third-section .banner-content .tds-flex .tds-right p {
+    font-family: "Gotham Book", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #393c41;
+    height: 105px;
+    padding-bottom: 14px;
+}
+
+.tds-left .banner-header, .tds-left .banner-subheader, .tds-left header{
+    width: 500px;
+}
 
 
+.tds-left .bunner-buttons-footer {
+    width: 365px;
+    height: 56px;
+    margin-top: 16px;
+    position: absolute;
+}
 
 /* should be inside the ultilties : */
 .main-logo-black {
