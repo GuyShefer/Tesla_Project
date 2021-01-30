@@ -256,17 +256,42 @@ header {
         white-space: nowrap;
     }
 
+    .second-section .side-nav-container {
+        width: 60px;
+        height: 252px;
+        font-size: 22px;
+        line-height: 23px;
+        margin-top: 120px;
+        position: absolute;
+        z-index: 25;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+
     .side-nav-container .side-nav-item {
         position: relative;
         margin-top: 5px;
-        cursor: pointer;
-        
+        cursor: pointer; 
     }
 
     .side-nav-container .side-nav-item .side-nav-tab {
         margin-left: 13px;
         display: inline;
+        border-left: 1px solid #757575;
+        width: 3px;
+    }
+
+    .first-section .side-nav-container .side-nav-item .side-nav-first {
+        margin-left: 12px;
         border-left: 3px solid #fff;
+        display: inline;
+        width: 3px;
+    }
+
+    .second-section .side-nav-container .side-nav-item .side-nav-first {
+        margin-left: 12px;
+        border-left: 3px solid black;
+        display: inline;
         width: 3px;
     }
 
@@ -286,10 +311,13 @@ header {
         font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
-    .side-nav-container .side-nav-item a:hover{
+    .first-section .side-nav-container .side-nav-item a:hover{
         color: #fff;
     }
 
+    .second-section .side-nav-container .side-nav-item a:hover{
+        color: black;
+    }
 
 /* Second Section */
 
@@ -307,10 +335,6 @@ header {
     float: left;
     position: absolute;
     z-index: 10;
-}
-
-.second-section .left-body {
-    height: 100%;
 }
 
  .left-headers {
@@ -508,3 +532,21 @@ header {
     z-index: 20;
 }
 
+.navigation-arrow img ,
+.second-navigation-arrow img {
+    width: 24px;
+    height: 20px;
+}
+
+.navigation-arrow {
+    position: relative;
+    left: 1305px;
+    top: 20px;
+    z-index: 20;
+}
+
+.second-navigation-arrow {
+    position: absolute;
+    left: 1305px;
+    margin-top: 20px;
+}
