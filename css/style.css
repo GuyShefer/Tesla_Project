@@ -520,6 +520,95 @@ header {
     height: 100vh;
 }
 
+.third-section .banner-image {
+    width: 1349px;
+    height: 375px;
+    position: relative;
+    background: url('../img/section-3.jpg') no-repeat center center/cover;
+}
+
+.third-section .banner-image .hero-center-bottom {
+    width: 1349px;
+    height: 193.5px;
+    position: absolute; 
+    bottom: 0;
+}
+
+.third-section .hero-center-bottom .hero-callouts-performance {
+    height: 84px;
+    padding: 0 30px;
+    margin-top: 37.5px;
+    margin-bottom: 72px;
+    margin-left: 162.5px;
+    margin-right: 162.5px;
+}
+
+.banner-image .callout-performance {
+    height: 84px;
+    float: left;
+    color: #ffffff;
+}
+
+.banner-image .callout-left {
+    padding-right: 20px;
+    width: 298.11px;
+}
+
+.banner-image .callout-center {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 278.11px;
+}
+
+.banner-image .callout-right {
+    padding-left: 20px;
+    width: 298.11px;
+}
+
+.banner-image .callout-performance-title {
+    height: 48px;
+}
+
+.banner-image .callout-performance-description {
+    height: 36px;
+}
+
+.tcl-speedometer-dial{
+    width: 40px;
+    height: 25px;
+    margin-right: 4px;
+    float: left;
+}
+
+.tcl-speedometer-digits {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.tcl-speedometer-digits span {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.callout-performance-description {
+    font-family: "Gotham Medium", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.callout-divider-line-performance {
+    border-left: 1px solid #fff;
+    height: 84px;
+    float: left;
+}
+
+
+
 
 /* should be inside the ultilties : */
 .main-logo-black {
@@ -533,7 +622,8 @@ header {
 }
 
 .navigation-arrow img ,
-.second-navigation-arrow img {
+.second-navigation-arrow img, 
+.third-navigation-arrow img{
     width: 24px;
     height: 20px;
 }
@@ -549,4 +639,11 @@ header {
     position: absolute;
     left: 1305px;
     margin-top: 20px;
+}
+
+.third-navigation-arrow {
+    position: absolute;
+    left: 1305px;
+    margin-top: 20px;
+    z-index: 20;
 }
